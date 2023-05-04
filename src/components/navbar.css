@@ -1,0 +1,11 @@
+.linkstyle{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    top: 0px;
+}

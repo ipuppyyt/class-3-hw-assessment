@@ -1,0 +1,5 @@
+.alertbox{
+    z-index: 100;
+    position: absolute;
+    top: 1000px;
+}

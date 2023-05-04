@@ -1,0 +1,57 @@
+
+body{
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.maindiv{
+    margin: 20px;
+}
+
+.card{
+    background-image: url("");
+    margin: 20px;
+}
+
+.card:hover{
+    transform: scale(1.09);
+    transition: all 0.3s ease-in-out;
+}
+
+.textalign{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.avatar{
+    background-color: rgb(114, 157, 194);
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linkstyle1{
+    text-decoration: none;
+    color: rgb(10, 147, 201);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.typo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.button{
+    margin-left: 20px;
+}
+
+.footer{
+    height:50px;
+}
