@@ -15,12 +15,13 @@ body{
 .card{
     background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/itCjTBE/blue-smooth-flowing-waves-on-light-background-video-animation-hd-1920x1080_v1gtgzrrzg_thumbnail-1080_08.png");
     background-size: cover;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     margin: 20px;
 }
 
 .card:hover{
     transform: scale(1.09);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .textalign{
