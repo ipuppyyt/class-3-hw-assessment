@@ -13,7 +13,8 @@ body{
 }
 
 .card{
-    background-image: url("");
+    background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/itCjTBE/blue-smooth-flowing-waves-on-light-background-video-animation-hd-1920x1080_v1gtgzrrzg_thumbnail-1080_08.png");
+    background-size: cover;
     margin: 20px;
 }
 
