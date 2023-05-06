@@ -3,8 +3,10 @@ body{
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url('https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin: 0;
 }
 
@@ -12,11 +14,30 @@ body{
     margin: 20px;
 }
 
+.maingrid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.grid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
 .card{
     background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/itCjTBE/blue-smooth-flowing-waves-on-light-background-video-animation-hd-1920x1080_v1gtgzrrzg_thumbnail-1080_08.png");
     background-size: cover;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 300px;
 }
 
 .card:hover{
@@ -34,6 +55,8 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 56px;
+    width: 56px;
 }
 
 .linkstyle1{

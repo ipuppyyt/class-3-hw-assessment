@@ -22,9 +22,9 @@ const Home = () => {
   }, []);
   return (
     <div className="maindiv">
-      <Grid container apacing={2}>
+      <Grid container spacing={2} className="maingrid">
         {value.map((val) => (
-          <Grid item xs={3} className="grid">
+          <Grid item xs="auto" className="grid">
             <Card className="card" variant="outlined">
               <CardContent className="textalign">
                 <Stack direction="row" spacing={2}>
